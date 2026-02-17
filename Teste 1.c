@@ -26,7 +26,7 @@ typedef struct{
 int main () {
 while (MAX_Territorio < 4){
      printf("Digite, nessa squência, território, cor e tropa:");
-     scanf("Nome: %s Cor: %s Tropas: %d", Territorio.nome, Territorio.cor, Territorio.tropas);
+     scanf("Nome: %s Cor: %s Tropas: %d", territoriodeclarado.nome, territoriodeclarad.cor, territoriodeclarado.tropas);
      return 0;
 }
 }
