@@ -20,7 +20,7 @@ typedef struct{
      int tropas;
 } Territorio;
 
-Territorio territoriodeclarado = {Territorio.nome[30], Territorio.cor[10], Territorio.tropas}
+Territorio territoriodeclarado = {"nome[30]", "cor[10]", tropas}
 
 int main() {
     while (MAX_Territorio < 5){
