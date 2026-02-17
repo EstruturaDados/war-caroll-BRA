@@ -7,6 +7,7 @@
 3. Nome: China, Cor: Vermelha, Tropas: 5
 4. Nome:  Taiwan, Cor: Dourado, Tropas: 8
 5. Nome: Japão, Cor: Azul, Tropas: 3
+
 // Definição de estrutura
 
 typedef struct{
