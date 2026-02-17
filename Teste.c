@@ -22,7 +22,7 @@ typedef struct{
 
 Territorio territoriodeclarado = {"nome[30]", "cor[10]", 0};
 
-int territorio = 0;
+Territorio territoriodeclarado[MAX_Territorio=0];
 
 int main() {
     
@@ -31,8 +31,8 @@ int main() {
     printf("Digite, nesta ordem, o nome, cor e quantidades de tropas do território:");
     scanf("Nome: %s Cor: %s Tropas: %d", territoriodeclarado.nome, territoriodeclarado.cor, territoriodeclarado.tropas);
 
-} while (territorio = 0, territorio < 5, territorio++);
-
+} while (Territorio territoriodeclarado[MAX_Territorio=0]; Territorio territoriodeclarado[MAX_Territorio<5]; Territorio territoriodeclarado++;
+return 0;
 }
 
 
