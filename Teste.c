@@ -30,9 +30,9 @@ int main() {
     
     printf("Digite, nesta ordem, o nome, cor e quantidades de tropas do território:");
     scanf("Nome: %s Cor: %s Tropas: %d", territoriodeclarado.nome, territoriodeclarado.cor, territoriodeclarado.tropas);
-    
-    return 0;    
+     
 }
+return 0;
 }
 
 
