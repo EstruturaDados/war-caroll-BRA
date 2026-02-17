@@ -32,7 +32,7 @@ int main() {
     scanf("Nome: %s Cor: %s Tropas: %d", territoriodeclarado.nome, territoriodeclarado.cor, territoriodeclarado.tropas);
 
 } while (territorio = 0, territorio < 5, territorio++);
-return 0;
+
 }
 
 
