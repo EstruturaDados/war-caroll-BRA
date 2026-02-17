@@ -26,7 +26,7 @@ int main () {
 while (MAX_Territorio < 4){
      printf("Digite, nessa squência, território, cor e tropa:");
      scanf("Nome: %s Cor: %s Tropas: %d", Territorio.nome, Territorio.cor, Territorio.tropas);
+     return = 0;
 }
-return 0;
 }
 
