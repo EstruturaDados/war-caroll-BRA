@@ -1,6 +1,12 @@
 #include <stdio.h>
 #include <string.h>
 
+// Territórios
+1. Nome: Coreia do Norte, Cor: Lilás, Tropas: 2
+2. Nome: Coreia do Sul, Cor: Rosa Pink, Tropas: 4
+3. Nome: China, Cor: Vermelha, Tropas: 5
+4. Nome:  Taiwan, Cor: Dourado, Tropas: 8
+5. Nome: Japão, Cor: Azul, Tropas: 3
 // Definição de estrutura
 
 typedef struct{
@@ -13,17 +19,14 @@ typedef struct{
 // Definição de constantes
 
 #define MAX_Territorio 40
-
+       
 // Declaração de territórios 
 
 int main () {
-Territorio territorio1 = {"Coreia do Norte","Lilás",2};
-Territorio territorio2 = {"Coreia do Sul","Rosa Pink", 4};
-Territorio territorio3 = {"China","Vermelha",5};
-Territorio territorio4 = {"Taiwan","Dourado",8};
-Territorio territorio5 = {"Japão","Azul",3};
+while (MAX_Territorio < 4){
+     printf("Digite, nessa squência, território, cor e tropa:");
+     scanf("Nome: %s Cor: %s Tropas: %d", Territorio.nome, Territorio.cor, Territorio.tropas);
+}
 return 0;
 }
 
-printf("Deseja visualizar territórios?");
-printf("Digite opção SIM ou NÃO");
