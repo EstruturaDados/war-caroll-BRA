@@ -24,7 +24,8 @@ Territorio territoriodeclarado = {"nome[30]", "cor[10]", 0};
 
 int main() {
     while (MAX_Territorio < 5){
-    printf("Nome: %s Cor: %s Tropas: %d", territoriodeclarado.nome, territoriodeclarado.cor, territoriodeclarado.tropas);
+    printf("Digite, nesta ordem, o nome, cor e quantidades de tropas do território:");
+    scanf("Nome: %s Cor: %s Tropas: %d", territoriodeclarado.nome, territoriodeclarado.cor, territoriodeclarado.tropas);
     }
 return = 0;
 }
