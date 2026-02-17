@@ -8,24 +8,25 @@
 // 4. Nome:  Taiwan, Cor: Dourado, Tropas: 8
 // 5. Nome: Japão, Cor: Azul, Tropas: 3
 
+// Variáveis Globais
+
+#define MAX_Territorio 20
+
 // Definição de estrutura
-int main(){
+
 typedef struct{
      char nome[30];
      char cor[10];
      int tropas;
 } Territorio;
 
-// Definição de constantes
+Territorio territoriodeclarado = {Territorio.nome[30], Territorio.cor[10], Territorio.tropas}
 
-#define MAX_Territorio 40
-       
-// Declaração de territórios 
-
-while (MAX_Territorio < 4){
-     printf("Digite, nessa squência, território, cor e tropa:");
-     fgets("Nome: %s Cor: %s Tropas: %d", Territorio.nome, Territorio.cor, Territorio.tropas);
-     return = 0;
+int main() {
+    while (MAX_Territorio < 5){
+    printf("Nome: %s Cor: %s Tropas: %d", territoriodeclarado.nome, territoriodeclarado.cor, territoriodeclarado.tropas);
+   return = 0;
+    }
 }
 
-}
+
