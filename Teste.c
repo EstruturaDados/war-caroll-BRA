@@ -26,12 +26,12 @@ int territorio = 0;
 
 int main() {
     
-    for (territorio = 0; territorio < 5; territorio++){
+    do{
     
     printf("Digite, nesta ordem, o nome, cor e quantidades de tropas do território:");
     scanf("Nome: %s Cor: %s Tropas: %d", territoriodeclarado.nome, territoriodeclarado.cor, territoriodeclarado.tropas);
-   
-}
+
+} while (territorio = 0, territorio < 5, territorio++);
 return 0;
 }
 
